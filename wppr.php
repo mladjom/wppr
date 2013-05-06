@@ -55,7 +55,7 @@ if (!class_exists('WordpressPopularPostsReloaded')) {
                 'id_base' => 'wppr'
             );
             // create the widget
-            $this->WP_Widget('wppr', 'Wordpress Popular Posts Reloaded', $widget_ops, $control_ops);
+            $this->WP_Widget('wppr', 'WPPR', $widget_ops, $control_ops);
             // set plugin path
             if (empty($this->pluginDir))
                 $this->pluginDir = WP_PLUGIN_URL . '/wppr';
@@ -195,7 +195,7 @@ if (!class_exists('WordpressPopularPostsReloaded')) {
             extract($args);
             echo "<!-- Wordpress Popular Posts Reloaded Plugin v" . $this->version . " [W] [" . $instance['range'] . "]" . (($instance['markup']['custom_html']) ? ' [custom]' : ' [regular]') . " -->" . "\n";
             echo $before_widget . "\n";
-            // has user set a title?
+            // has user set a title?version
             if ($instance['title'] != '') {
                 $title = apply_filters('widget_title', $instance['title']);
                 if ($instance['markup']['custom_html'] && $instance['markup']['title-start'] != "" && $instance['markup']['title-end'] != "") {
