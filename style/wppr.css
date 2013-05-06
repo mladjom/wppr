@@ -1,0 +1,83 @@
+/*
+
+Wordpress Popular Posts plugin stylesheet
+
+Developed by Hector Cabrera
+
+
+
+Use the following classes to style your popular posts list as you like.
+
+*/
+
+
+
+/* title styles */
+
+.wppr-post-title {
+
+}
+
+
+
+/* thumbnail styles */
+
+img.wppr-thumbnail {
+
+	border:none;
+
+}
+
+
+
+/* excerpt styles */
+
+.wppr-excerpt {
+
+}
+
+
+
+/* Stats tag styles */
+
+.post-stats {
+
+	font-size:9px;
+
+	font-weight:bold;
+
+}
+
+	
+
+	.wppr-comments {
+
+	}
+
+	
+
+	.wppr-views {
+
+	}
+
+	
+
+	.wppr-author {
+
+		font-style:italic;
+
+	}
+
+	
+
+	.wppr-date {
+
+	}
+
+
+
+/* WP-PostRatings styles */
+
+.wppr-rating {
+
+}
